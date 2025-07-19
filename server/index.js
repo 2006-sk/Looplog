@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const logRoutes = require('./routes/temp');
+const tempRoutes = require('./routes/temp');
 
 
 const app = express();
@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 // Mount all log-related API routes
-app.use('/api/logs', logRoutes);
+app.use('/api/logs', tempRoutes);
 
 // Start the server
 app.listen(5001, () => console.log('LoopLog backend running on port 5001'));

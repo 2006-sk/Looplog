@@ -1,5 +1,7 @@
 const express = require('express');
-const Log = require('../models/Log');
+const Log = require('../models/CleanLog.js');
+console.log('💥 Log typeof:', typeof Log);
+
 const router = express.Router();
 
 /**
