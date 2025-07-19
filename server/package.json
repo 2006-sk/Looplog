@@ -1,0 +1,23 @@
+{
+    "name": "looplog-server",
+    "version": "1.0.0",
+    "description": "Backend for LoopLog - Logging & Analytics Platform",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "mongoose": "^7.6.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    },
+    "keywords": [],
+    "author": "Shresthkumar Karnani",
+    "license": "MIT"
+  }
+  
