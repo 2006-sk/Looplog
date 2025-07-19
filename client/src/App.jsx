@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api/logs';
+const API_URL = 'https://looplog-1.onrender.com/api/logs';
 
 // Category style config
 const categoryStyles = {
